@@ -154,10 +154,14 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pdbstream.h" />
+    <ClInclude Include="resource.h" />
     <ClInclude Include="wcx.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="mspdb_wcx.def" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="mspdb_wcx.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

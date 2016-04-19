@@ -1,0 +1,6 @@
+[plugininstall] 
+description=Stream extractor for Microsoft Program Database (PDB) files
+type=wcx
+file=mspdb.wcx 
+defaultdir=mspdb
+defaultextension=pdb
